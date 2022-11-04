@@ -4,7 +4,7 @@ WORKDIR /example/toan
 
 COPY . .
 
-RUN pip istall -r setup.txt
+RUN pip install -r setup.txt
 
 CMD ["python3", "./example"]
 
